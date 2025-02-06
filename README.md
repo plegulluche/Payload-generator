@@ -1,15 +1,87 @@
-### Features
+# Payload Generator
 
-- [ ] Payload validation : uses schemas to validate the generated payloads 
-- [ ] Payload generation : the system is able to produce a single payload or batch of payloads
-- [ ] Return types : the system is able to return payloads as a list of dict in json format 
-- [ ] File generation : the system is able to write the generated payloads in a file for copy / paste use
-- [ ] Integrations : the system is able to produce a JSON raw body usable directly in postman or any app that function in the same fashion
+Un générateur de payloads configurable pour les commandes WCS, avec validation et génération de lots.
 
-## Steps 
+## État du Projet
 
-### Basic generation
+### Complété ✅
+- Structure de base du repository
+- Implémentation des Data Classes (Payload models)
+- Schémas de validation
+- Configuration des codes INSEE
 
-### Batch & Validations
+### En Cours 🚧
+- Mise en place des tests unitaires (TDD)
+- Implémentation de la génération basique de payloads
 
-### Advanced features
+## Fonctionnalités Prévues
+
+- [ ] **Validation des Payloads**
+  - Validation via schémas
+  - Vérification des codes INSEE
+  - Validation des types de données
+  - Messages d'erreur détaillés
+
+- [ ] **Génération de Payloads**
+  - Génération unitaire
+  - Génération par lots
+  - Support des templates
+
+- [ ] **Formats de Sortie**
+  - JSON (format raw)
+  - Liste de dictionnaires Python
+  - Fichiers exportables
+  - Format compatible Postman
+
+## Roadmap
+
+### Phase 1: Fondations & Tests
+- [x] Structure du projet
+- [x] Data Classes & Validators
+- [ ] Tests unitaires (objectif: 70% coverage)
+- [ ] Tests d'intégration basiques
+- [ ] Documentation des tests
+
+### Phase 2: Génération & Validation
+- [ ] Implémentation de la génération basique
+- [ ] Validation des payloads
+- [ ] Gestion des erreurs
+- [ ] Tests des validateurs
+
+### Phase 3: Fonctionnalités Avancées
+- [ ] Génération par lots
+- [ ] Templates configurables
+- [ ] Export multi-formats
+- [ ] CLI basique
+
+### Phase 4: Optimisations
+- [ ] Interface CLI avancée
+- [ ] Amélioration de la performance
+- [ ] Documentation complète
+- [ ] Exemples d'utilisation
+
+## Installation
+
+```bash
+# Prochainement
+```
+
+## Utilisation
+
+```python
+# Exemples à venir
+```
+
+## Tests
+
+```bash
+# Lancement des tests
+pytest
+
+# Avec coverage
+pytest --cov=payload_generator
+```
+
+## Contribution
+
+Les contributions sont les bienvenues ! Consultez le fichier CONTRIBUTING.md (à venir) pour plus de détails.
